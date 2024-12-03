@@ -6,7 +6,7 @@ services:
     ports:
       - "8080"
     volumes:
-      - C:\Users\Kathryn\OneDrive\Documents\College\CIS-4971\Transferware.AI\transferware.ai-main:\python_src\scratch # TODO match your system, this is the resource dir
+      - C:\Users\Kathryn\OneDrive\Documents\GitHub\Transferware.AI\transferware.ai-main:\python_src\scratch # TODO match your system, this is the resource dir
     environment:
       - "TRANSFERWARE_QUERY.TORCH_DEVICE=cpu" # TODO with the nvidia runtime this can be cuda
     deploy:
